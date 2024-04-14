@@ -1,0 +1,16 @@
+#message {
+  display: none;
+  background-color: black;
+  width: 50%;
+  color: white;
+  position: fixed;
+  top: auto;
+  right: 25%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+p {
+  height: 1000px;
+  background-color: aqua;
+}
