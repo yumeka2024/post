@@ -1,11 +1,11 @@
 $(function() {
-  $('#btn').on('click', function(){
-    $('#message').css('display', 'block');
-  })
+//   $('#btn').on('click', function(){
+//     $('#message').css('display', 'block');
+//   })
 
-  $('#btn').on('mouseup', function(){
+  $(window).on('load', function(){
     setTimeout(function() {
-      $('#message').css('display', 'none');
+      $('#center_notice').css('display', 'none');
     }, 1300);
   });
 });
